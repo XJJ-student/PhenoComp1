@@ -21,7 +21,7 @@ PhenoComp(expdata,label,gene,0.99,1,0.05,"gene_up.txt","gene_down.txt")
 The example is the gene expression profile of GSE26887 from database Gene Expression Omnibus (GEO)
 # Data input
 PhenoComp(expdata,label,gene,freq,method,freq1,outfile1,outfile2)
-
+```
 expdata, a (non-empty) numeric gene expression matrix with both disease and control samples.
 label, a (non-empty) numeric vector of data values where ’0’ represents control sample label and ’1’ reptesents disease sample(default).The length of label must be the same as the number of columns in the expdata.
 gene, a (non-empty) numeric vector of Entrez gene IDs. The length of gene must be the same as the number of rows in the expdata
@@ -30,7 +30,7 @@ method, Method determines how to estimate the p_up and p_down. Method=1: the p_u
 freq1, the threshold of FDR for identifying population-level differentially expressed genes.
 outfile1, The file name used to save the identified population-level up-regulation genes.
 outfile2, The file name used to save the identified population-level down-regulation genes.
-
+```
 # Contact email
 Please don't hesitate to address comments/questions/suggestions regarding this R package to:
 Jiajing Xie <xiejiajing_fjmu@163.com>; Haidan Yan <Joyan168@126.com>
