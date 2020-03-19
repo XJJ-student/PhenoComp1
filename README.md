@@ -5,7 +5,7 @@ Identification of population-level differentially expressed genes in one-phenoty
 To install the PhenoComp, install from github using devtools
 ```
 library(devtools)
-install_github("XJJ-student/StemnessIndexs")
+install_github("XJJ-student/PhenoComp")
 ```
 Or you can download the .ZIP file and and unzip it.
 ```
