@@ -20,7 +20,7 @@ PhenoComp(expdata,label,gene,0.99,1,0.05,"gene_up.txt","gene_down.txt")
 ```
 The example is the gene expression profile of GSE26887 from database Gene Expression Omnibus (GEO)
 # Data input
-PhenoComp(expdata,label,gene,freq,method,freq1,outfile1,outfile2)
+PhenoComp(expdata, label, gene, freq, method, freq1, outfile1, outfile2)
 ```
 expdata, a (non-empty) numeric gene expression matrix with both disease and control samples.
 label, a (non-empty) numeric vector of data values where ’0’ represents control sample label and ’1’ reptesents disease sample(default).The length of label must be the same as the number of columns in the expdata.
